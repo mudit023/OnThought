@@ -1,0 +1,11 @@
+.profile_icon {
+  font-size: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #111; */
+  border-radius: 50%;
+  background-color: #fde047;
+
+  padding: 1rem;
+}

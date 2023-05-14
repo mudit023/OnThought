@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-height: 100vh;
+  gap: 1.5rem;
+  padding: 0rem 9rem 0rem;
+}
+
+h1 {
+  color: #cbd5df;
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    padding: 1rem 5rem;
+  }
+}

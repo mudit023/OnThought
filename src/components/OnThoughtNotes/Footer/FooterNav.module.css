@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  flex: 1;
+  align-items: center;
+  background-color: #fde047;
+  width: 60vw;
+  padding: 1rem 2rem;
+  border-radius: 24px 24px 0 0;
+}
+.logo {
+  cursor: pointer;
+}
+
+.logo h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.addBtn {
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .container {
+    width: 70vw;
+  }
+}

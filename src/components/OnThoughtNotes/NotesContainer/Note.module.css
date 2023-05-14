@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #171a23;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  height: 28rem;
+  width: 30rem;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.title {
+  /* overflow: hidden; */
+  width: 100%;
+  word-break: break-all;
+  margin-bottom: 20px;
+  max-height: 100%;
+}
+.body {
+  height: 100%;
+  margin-bottom: 15px;
+}
+.note-title {
+  font-size: 1.8rem;
+  color: #cbd5df;
+  font-weight: 500;
+}
+.note-body {
+  width: 100%;
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  overflow: hidden;
+  position: relative;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* font-family: 'Merriweather', serif; */
+  font-size: 1.6rem;
+  color: #a6aeb5;
+}
+.note-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #cbd5df;
+}
+@media (max-width: 900px) {
+  .container {
+    height: 44rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+  }
+  .note-title {
+    font-size: 3.4rem;
+  }
+  .note-body {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 550px) {
+  .note-title {
+    font-size: 2.4rem;
+  }
+  .note-body {
+    font-size: 2rem;
+  }
+}
